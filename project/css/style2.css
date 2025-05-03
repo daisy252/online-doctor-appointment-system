@@ -1,0 +1,169 @@
+/* Basic resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: #f1f1f1;
+    font-size: 16px;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+/* Simple page wrap */
+.simple-page-wrap {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo */
+.simple-page-logo {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.simple-page-logo span {
+    color: #0188df;
+}
+
+.simple-page-logo i {
+    font-size: 2.5rem;
+}
+
+/* Form title */
+.form-title {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+}
+
+/* Form Input Fields */
+.form-group {
+    margin-bottom: 3rem;
+}
+
+.form-control {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-control:focus {
+    outline: none;
+    border-color: #0188df;
+}
+
+/* Button */
+.btn-primary {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.2rem;
+    background-color: #0188df;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #016bb6;
+}
+
+/* Footer links */
+.simple-page-footer p {
+    margin-top: 6rem;
+    font-size: 1rem;
+}
+
+.simple-page-footer a {
+    color: #0188df;
+    text-decoration: none;
+}
+
+.simple-page-footer a:hover {
+    text-decoration: underline;
+}
+
+/* Footer section */
+.footer {
+    width: 100%;
+    background-color: #444d53;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.footer .box {
+    margin-bottom: 1.5rem;
+}
+
+.footer .box h2 {
+    color: #0188df;
+    margin-bottom: 1rem;
+}
+
+.footer .box a {
+    color: #fff;
+    font-size: 1.2rem;
+    display: block;
+    margin: 0.5rem 0;
+}
+
+.footer .box a:hover {
+    text-decoration: underline;
+}
+
+.footer .credit {
+    font-size: 0.9rem;
+    color: #fff;
+    margin-top: 2rem;
+}
+
+/* Home icon style */
+#back-to-home {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+
+#back-to-home .btn {
+    padding: 0.5rem 1rem;
+    background-color: #0188df;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+#back-to-home .btn:hover {
+    background-color: #016bb6;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .simple-page-wrap {
+        width: 90%;
+    }
+
+    .footer {
+        padding: 1rem;
+    }
+
+    .footer .box {
+        margin-bottom: 1rem;
+    }
+}
